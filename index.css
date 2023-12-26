@@ -255,6 +255,7 @@ iframe{
 #width{
     width: 40%;
     height: 40%;
+    animation: pulsar 4s infinite;
     filter: drop-shadow(-8px 2px 7px #942dbd);
 }
 a{
@@ -264,17 +265,6 @@ a{
 a:hover{
   color:aliceblue;
   font-size: 13pt;
-}
-@keyframes pulsar {
-    0% {  
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
 }
 @keyframes Gradient {
     0% {
