@@ -266,6 +266,17 @@ a:hover{
   color:aliceblue;
   font-size: 13pt;
 }
+@keyframes pulsar {
+    0% {  
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
 @keyframes Gradient {
     0% {
         background-position: 0% 50%;
@@ -339,8 +350,5 @@ a:hover{
       min-height: 35em;
       background-color: aliceblue;
       filter: none;
-    }
-    #slogam{
-      text-transform:none;
     }
 }
