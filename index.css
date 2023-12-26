@@ -252,12 +252,7 @@ iframe{
     animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
     transform-origin: 10% 10%;
 }
-#widt{
-    width: 40%;
-    height: 40%;
-    animation: pulsar 4s infinite;
-    filter: drop-shadow(-8px 2px 7px #942dbd);
-}
+/*pulsar*/
 a{
   color: #ff0000;
   font-size: 15pt;
@@ -266,17 +261,7 @@ a:hover{
   color:aliceblue;
   font-size: 13pt;
 }
-@keyframes pulsar {
-    0% {  
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-}
+
 @keyframes Gradient {
     0% {
         background-position: 0% 50%;
