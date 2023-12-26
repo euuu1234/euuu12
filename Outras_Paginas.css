@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+    color: aliceblue;font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/Captura de tela (2).png');
+    background-size: 40%; /* Pode ajustar esse valor conforme necessário */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-attachment: fixed; /* Fixa a imagem no plano de fundo para que não role com a página */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    opacity: 0.97; /* Adiciona opacidade à própria imagem */
+    background-color: rgb(58, 7, 105);
+    overflow-x: hidden; /* Para ocultar a rolagem horizontal se necessário */
+}
+header{
+    background-color: #b33ef7bd;
+    padding-bottom: 0.5em;
+}
+#home{
+    height: 40px;
+    width: 40px;
+}
+#conteudo{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: #ffffff93;
+    display: flex;
+}
+p{
+    padding: 2em;
+    color: black;
+    min-width: 50%;
+}
+h1{
+    margin-top: 2em;
+}
+.img_lateral{
+    max-width: 20em;
+    max-height: 13.33em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media only screen and (max-width: 767px) {
+    p{
+        padding: 1em;
+        color: black;
+    }
+    .img_lateral{
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 1em;
+    }
+    #conteudo{
+        flex-direction:column-reverse;
+        margin-bottom: 15em;
+    }
+
+}
