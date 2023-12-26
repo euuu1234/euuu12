@@ -351,4 +351,7 @@ a:hover{
       background-color: aliceblue;
       filter: none;
     }
+    #slogam{
+      text-transform:none;
+    }
 }
