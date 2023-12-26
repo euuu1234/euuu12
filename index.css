@@ -255,7 +255,6 @@ iframe{
 #width{
     width: 40%;
     height: 40%;
-    animation: pulsar 4s infinite;
     filter: drop-shadow(-8px 2px 7px #942dbd);
 }
 a{
