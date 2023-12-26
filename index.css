@@ -252,7 +252,7 @@ iframe{
     animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
     transform-origin: 10% 10%;
 }
-#width{
+#widt{
     width: 40%;
     height: 40%;
     animation: pulsar 4s infinite;
