@@ -258,14 +258,6 @@ iframe{
     animation: pulsar 4s infinite;
     filter: drop-shadow(-8px 2px 7px #942dbd);
 }
-a{
-  color: #ff0000;
-  font-size: 15pt;
-}
-a:hover{
-  color:aliceblue;
-  font-size: 13pt;
-}
 @keyframes pulsar {
     0% {  
       transform: scale(1);
@@ -277,6 +269,15 @@ a:hover{
       transform: scale(1);
     }
 }
+a{
+  color: #ff0000;
+  font-size: 15pt;
+}
+a:hover{
+  color:aliceblue;
+  font-size: 13pt;
+}
+
 @keyframes Gradient {
     0% {
         background-position: 0% 50%;
